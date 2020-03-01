@@ -4,9 +4,9 @@ image_config: &image_config
   # either as project-specific environment variables
   # or as resources in your organization's org-global Context
 
-  IMAGE_NAME: # name your image (no spaces please!)
+  IMAGE_NAME: zH4x-Windows # name your image (no spaces please!)
 
-  IMAGE_TAG: # give your image a tag (no spaces please!)
+  IMAGE_TAG: zWin10 # give your image a tag (no spaces please!)
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -54,7 +54,7 @@ jobs:
 
 ##  test_image:
 ##    docker:
-##      - image: $DOCKER_USERNAME/(name of image):(image tag)
+##      - image: $DOCKER_USERNAME/zH4x-Windows:zWin10
 ##        environment:
 ##          <<: *image_config
 
